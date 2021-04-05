@@ -40,9 +40,12 @@ for keys, values in data.items():
     if count >= emoji_no:
         break
     for emoji in values:
-        emoji_code = chr(int(emoji['code'].replace('U+', '0x').lower(), 16))
-        emojis.append(emoji_code)
-        count += 1
+        try:
+            emoji_code = chr(int(emoji['code'].replace('U+', '0x').lower(), 16))
+            emojis.append(emoji_code)
+            count += 1
+        except Exception:
+            pass
         if count >= emoji_no:
             break
 

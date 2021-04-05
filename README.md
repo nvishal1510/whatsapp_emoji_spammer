@@ -22,5 +22,4 @@ python whatsapp_spammer.py
 2. The program will open whatsapp webpage in a Chrome window. Log into your whatsapp by scanning the QR code.
 3. The command line interface (cmd or terminal) will ask you the contact name. Enter the name of the contact whom you want to spam. 
 The name may be incomplete but when you search the name in the whatsapp search window, the required contact should be the first on the list.
-4. Then enter the no of emojis you want to spam them. If do not enter any value and press enter it will assume the default value of 15. Although there is no upper limit on the no of emojis, 
-I would recommend that do not enter more than 80.
+4. Then enter the no of emojis you want to spam them. If you do not enter any value and press enter it will assume the default value of 15. Although the hard limit is 1084 emojis, I would recommend that you do not enter more than 80 (for the sake of inconvenience at the other end).
